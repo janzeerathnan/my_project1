@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0; /* Soft creamy background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-container {
+    text-align: center;
+    background: white; /* White container for clarity */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #f1c40f; /* Golden border accent */
+}
+
+.welcome-container h1 {
+    font-size: 24px;
+    color: #d35400; /* Vibrant orange text */
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22; /* Bright orange button background */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for buttons */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #f39c12; /* Lighter orange on hover */
+    transform: translateY(-2px); /* Subtle hover lift */
+}
+
+.btn:active {
+    background-color: #d35400; /* Darker orange on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(0); /* Reset hover lift on click */
+}
